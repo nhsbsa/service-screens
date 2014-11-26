@@ -1,0 +1,129 @@
+/* ====================================================*/
+/* Print version */
+
+
+/* Hide these */
+
+.js-close-all,
+.js-open-all,
+.js-close-screen,
+.toolbar,
+.app-header,
+.exemplar-intro,
+.journey,
+.button{
+	display: none;
+}
+
+/* Core styles shared with screen view */
+
+body{
+	font-family: 'nta', sans-serif;
+	padding: 25px 50px 50px;
+	margin: 0;
+	padding-bottom: 100px;
+}
+h1{
+	margin-bottom: 50px;
+	font-size: 40px;
+	margin-top: 10px;
+}
+h2, h3{
+	font-size: 20px;
+}
+.image-set-title{
+	display: none;
+}
+.image-set-title.open{
+	display: block;
+	font-size: 19px;
+	padding-left: 16px;
+	padding-top: 3px;
+	text-indent: -16px;
+	font-weight: bold;
+	margin-bottom:  10px;
+}
+.image-title h3{
+	font-weight: normal;
+}
+.image{
+    display: inline-block;
+    padding-right: 10px;
+		position: relative;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+.image:last-child:after{
+	content: "";
+}
+.image:after{
+	content: "→";
+	display: inline-block;
+	font-size: 30px;
+	margin-left: 20px;
+	vertical-align: middle;
+	display: none;
+}
+.image-wrapper{
+	width: 8em;
+  border: 1px solid #bfc1c3;
+	height: 8em;
+	overflow: hidden;
+	background: #DEE0E2;
+	display: inline-block;
+	vertical-align: middle;
+}
+.image-wrapper img{
+	width: 100%;
+	margin-bottom: 100px;
+}
+.arrow{
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 10px;
+	vertical-align: top;
+	margin-top: 20px;
+}
+.image-set-images .image:last-child .arrow{
+	display: none;
+}
+.meta{
+	color: #6f777b;
+	margin: 75px 0 50px 0;
+	font-size: 16px;
+	width: 50%;
+}
+
+/* Additional print styles */
+
+.image-set{
+	display: inline-block;
+	margin: 0 2em 10em 0;
+}
+.image-set-images{
+	background: none;
+	border: none;
+	overflow: visible;
+	white-space: normal;
+	margin: 0;
+	padding: 0;
+}
+.image-wrapper{
+	height: auto;
+	font-size: 10%;
+}
+.image-wrapper img{
+	margin-bottom: 0;
+}
+.note{
+	margin-top: 10px;
+	display: block;
+	width: 4em;
+}
+.image-title{
+	margin: 0;
+}
+.image-title h3,
+.note p{
+	font-size: 6px;
+}
