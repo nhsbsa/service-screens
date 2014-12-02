@@ -18,7 +18,7 @@ var data = {
           "imgref": "images/create-case-inscope-elgible/3.png"
         },
         {
-          "caption": "Postcode search and filling in client details",
+          "caption": "Client details",
           "imgref": "images/create-case-inscope-elgible/4.png"
         },
         {
@@ -46,8 +46,8 @@ var data = {
             "imgref": "images/create-case-inscope-elgible/10.png"
         }
       ]
-    }
-    /*{
+    },
+    {
       "title": "Out of scope, give alternative help", // user journey title
       "path": [ // array of images
         {
@@ -63,16 +63,56 @@ var data = {
           "imgref": "images/out-of-scope-alternative-help/3.png" // image path
         },
       ]
-    }*/
-
-    // in-scope ineligible alternative help
-
-
-
-    // suspend a case
-
-    // schedule a callback
-
-    // search case queue
-
+    },
+    {
+      "title": "In-scope ineligible alternative help", // user journey title
+      "path": [ // array of images
+        {
+          "caption": "Cases queue", // image caption
+          "imgref": "images/in-scope-ineligible-alternative-help/1.png" // image path
+        },
+        {
+          "caption": "In-scope", // image caption
+          "imgref": "images/in-scope-ineligible-alternative-help/2.png" // image path
+        },
+        {
+          "caption": "Financial assessment ineligible", // image caption
+          "imgref": "images/in-scope-ineligible-alternative-help/3.png" // image path
+        },
+        {
+          "caption": "Alternate help    ", // image caption
+          "imgref": "images/in-scope-ineligible-alternative-help/4.png" // image path
+        },
+      ]
+    },
+    {
+      "title": "Suspend a case", // user journey title
+      "path": [ // array of images
+        {
+          "caption": "Cases queue", // image caption
+          "imgref": "images/suspend-a-case/1.png" // image path
+        },
+        {
+          "caption": "Finances", // image caption
+          "imgref": "images/suspend-a-case/2.png" // image path
+        },
+        {
+          "caption": "Suspend case", // image caption
+          "imgref": "images/suspend-a-case/3.png" // image path
+        },
+      ]
+    },
+    {
+      "title": "Search case queue", // user journey title
+      "path": [ // array of images
+        {
+          "caption": "Cases queue", // image caption
+          "imgref": "images/search-case-queue/1.png" // image path
+        },
+        {
+          "caption": "Cases queue search", // image caption
+          "imgref": "images/search-case-queue/2.png" // image path
+        },
+      ]
+    },
   ]}
