@@ -39,7 +39,8 @@ var data = {
         },
         {
             "caption": "Review",
-            "imgref": "images/9-review.png"
+            "imgref": "images/9-review.png",
+            "note": "When 'Continue' is clicked, a pre-populated court form (PDF) is displayed."
         }
       ]
     }
