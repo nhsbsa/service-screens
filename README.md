@@ -1,11 +1,10 @@
 Service screens
 ================
 
-Browse screenshots of MOJDS services, organised by user scenario.
+View different sets of screenshots for each service, zoom in and out of them or step through them in order.
 
-[http://ministryofjustice.github.io/service-screens/](http://ministryofjustice.github.io/service-screens/)
+Folked from MOJ [http://ministryofjustice.github.io/service-screens/](http://ministryofjustice.github.io/service-screens/)
 
-You can view different sets of screenshots for each service, zoom in and out of them or step through them in order.
 
 
 ## Running this app locally
